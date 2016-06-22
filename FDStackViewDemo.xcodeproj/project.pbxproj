@@ -37,8 +37,29 @@
 		48A129931B9BE5E500EF9265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A129911B9BE5E500EF9265 /* Main.storyboard */; };
 		48A129951B9BE5E500EF9265 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A129941B9BE5E500EF9265 /* Images.xcassets */; };
 		48A129981B9BE5E500EF9265 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A129961B9BE5E500EF9265 /* LaunchScreen.xib */; };
+		CDB09DEF1D1A64430092728E /* FDStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB09DEE1D1A64430092728E /* FDStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB09DF61D1A64430092728E /* FDStackView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB09DEC1D1A64430092728E /* FDStackView.framework */; };
+		CDB09DFD1D1A64430092728E /* FDStackViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB09DFC1D1A64430092728E /* FDStackViewTests.m */; };
+		CDB09E0A1D1A64CE0092728E /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB2F1BC67ACA00D86EBB /* FDGapLayoutGuide.m */; };
+		CDB09E0B1D1A64D30092728E /* FDLayoutSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB311BC67ACA00D86EBB /* FDLayoutSpacer.m */; };
+		CDB09E0C1D1A64D70092728E /* FDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB331BC67ACA00D86EBB /* FDStackView.m */; };
+		CDB09E0D1D1A64D90092728E /* FDStackViewAlignmentLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB351BC67ACA00D86EBB /* FDStackViewAlignmentLayoutArrangement.m */; };
+		CDB09E0E1D1A64DD0092728E /* FDStackViewDistributionLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB371BC67ACA00D86EBB /* FDStackViewDistributionLayoutArrangement.m */; };
+		CDB09E0F1D1A64DF0092728E /* FDStackViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB391BC67ACA00D86EBB /* FDStackViewExtensions.m */; };
+		CDB09E101D1A64E30092728E /* FDStackViewLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB3B1BC67ACA00D86EBB /* FDStackViewLayoutArrangement.m */; };
+		CDB09E111D1A64E70092728E /* FDTransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAB3D1BC67ACA00D86EBB /* FDTransformLayer.m */; };
 		E153018E1BA8110C00C857EF /* FDStoryboardBasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E153018D1BA8110C00C857EF /* FDStoryboardBasedViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB09DF71D1A64430092728E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A1297C1B9BE5E500EF9265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB09DEB1D1A64430092728E;
+			remoteInfo = FDStackView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		484BAAEF1BC66FC100D86EBB /* CopyFiles */ = {
@@ -48,6 +69,16 @@
 			dstSubfolderSpec = 16;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09E081D1A64430092728E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -80,6 +111,12 @@
 		48A129921B9BE5E500EF9265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48A129941B9BE5E500EF9265 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48A129971B9BE5E500EF9265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CDB09DEC1D1A64430092728E /* FDStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB09DEE1D1A64430092728E /* FDStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDStackView.h; sourceTree = "<group>"; };
+		CDB09DF01D1A64430092728E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB09DF51D1A64430092728E /* FDStackViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDStackViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB09DFC1D1A64430092728E /* FDStackViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDStackViewTests.m; sourceTree = "<group>"; };
+		CDB09DFE1D1A64430092728E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E153018C1BA8110C00C857EF /* FDStoryboardBasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStoryboardBasedViewController.h; sourceTree = "<group>"; };
 		E153018D1BA8110C00C857EF /* FDStoryboardBasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStoryboardBasedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +133,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09DE81D1A64430092728E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09DF21D1A64430092728E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB09DF61D1A64430092728E /* FDStackView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +180,8 @@
 		48A1297B1B9BE5E500EF9265 = {
 			isa = PBXGroup;
 			children = (
+				CDB09DED1D1A64430092728E /* FDStackView */,
+				CDB09DFB1D1A64430092728E /* FDStackViewTests */,
 				48A129861B9BE5E500EF9265 /* FDStackViewDemo */,
 				48A129851B9BE5E500EF9265 /* Products */,
 			);
@@ -138,6 +192,8 @@
 			children = (
 				48A129841B9BE5E500EF9265 /* FDStackViewDemo.app */,
 				484BAAF11BC66FC100D86EBB /* libFDStackViewPatch.a */,
+				CDB09DEC1D1A64430092728E /* FDStackView.framework */,
+				CDB09DF51D1A64430092728E /* FDStackViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +225,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CDB09DED1D1A64430092728E /* FDStackView */ = {
+			isa = PBXGroup;
+			children = (
+				CDB09DEE1D1A64430092728E /* FDStackView.h */,
+				CDB09DF01D1A64430092728E /* Info.plist */,
+			);
+			path = FDStackView;
+			sourceTree = "<group>";
+		};
+		CDB09DFB1D1A64430092728E /* FDStackViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB09DFC1D1A64430092728E /* FDStackViewTests.m */,
+				CDB09DFE1D1A64430092728E /* Info.plist */,
+			);
+			path = FDStackViewTests;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -184,6 +258,14 @@
 				484BAB441BC67ACA00D86EBB /* FDStackView.h in Headers */,
 				484BAB4A1BC67ACA00D86EBB /* FDStackViewDistributionLayoutArrangement.h in Headers */,
 				484BAB3E1BC67ACA00D86EBB /* FDGapLayoutGuide.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09DE91D1A64430092728E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB09DEF1D1A64430092728E /* FDStackView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +297,7 @@
 				48A129801B9BE5E500EF9265 /* Sources */,
 				48A129811B9BE5E500EF9265 /* Frameworks */,
 				48A129821B9BE5E500EF9265 /* Resources */,
+				CDB09E081D1A64430092728E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +307,42 @@
 			productName = FDStackViewDemo;
 			productReference = 48A129841B9BE5E500EF9265 /* FDStackViewDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CDB09DEB1D1A64430092728E /* FDStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB09E071D1A64430092728E /* Build configuration list for PBXNativeTarget "FDStackView" */;
+			buildPhases = (
+				CDB09DE71D1A64430092728E /* Sources */,
+				CDB09DE81D1A64430092728E /* Frameworks */,
+				CDB09DE91D1A64430092728E /* Headers */,
+				CDB09DEA1D1A64430092728E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDStackView;
+			productName = FDStackView;
+			productReference = CDB09DEC1D1A64430092728E /* FDStackView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDB09DF41D1A64430092728E /* FDStackViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB09E091D1A64430092728E /* Build configuration list for PBXNativeTarget "FDStackViewTests" */;
+			buildPhases = (
+				CDB09DF11D1A64430092728E /* Sources */,
+				CDB09DF21D1A64430092728E /* Frameworks */,
+				CDB09DF31D1A64430092728E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB09DF81D1A64430092728E /* PBXTargetDependency */,
+			);
+			name = FDStackViewTests;
+			productName = FDStackViewTests;
+			productReference = CDB09DF51D1A64430092728E /* FDStackViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -245,6 +364,12 @@
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = Q3443S8FFW;
 					};
+					CDB09DEB1D1A64430092728E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CDB09DF41D1A64430092728E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 48A1297F1B9BE5E500EF9265 /* Build configuration list for PBXProject "FDStackViewDemo" */;
@@ -262,6 +387,8 @@
 			targets = (
 				48A129831B9BE5E500EF9265 /* FDStackViewDemo */,
 				484BAAF01BC66FC100D86EBB /* FDStackViewPatch */,
+				CDB09DEB1D1A64430092728E /* FDStackView */,
+				CDB09DF41D1A64430092728E /* FDStackViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,6 +401,20 @@
 				48A129931B9BE5E500EF9265 /* Main.storyboard in Resources */,
 				48A129981B9BE5E500EF9265 /* LaunchScreen.xib in Resources */,
 				48A129951B9BE5E500EF9265 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09DEA1D1A64430092728E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09DF31D1A64430092728E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +455,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDB09DE71D1A64430092728E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB09E111D1A64E70092728E /* FDTransformLayer.m in Sources */,
+				CDB09E0A1D1A64CE0092728E /* FDGapLayoutGuide.m in Sources */,
+				CDB09E0C1D1A64D70092728E /* FDStackView.m in Sources */,
+				CDB09E0D1D1A64D90092728E /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
+				CDB09E0E1D1A64DD0092728E /* FDStackViewDistributionLayoutArrangement.m in Sources */,
+				CDB09E0B1D1A64D30092728E /* FDLayoutSpacer.m in Sources */,
+				CDB09E0F1D1A64DF0092728E /* FDStackViewExtensions.m in Sources */,
+				CDB09E101D1A64E30092728E /* FDStackViewLayoutArrangement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB09DF11D1A64430092728E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB09DFD1D1A64430092728E /* FDStackViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB09DF81D1A64430092728E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB09DEB1D1A64430092728E /* FDStackView */;
+			targetProxy = CDB09DF71D1A64430092728E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		48A129911B9BE5E500EF9265 /* Main.storyboard */ = {
@@ -469,6 +641,80 @@
 			};
 			name = Release;
 		};
+		CDB09E031D1A64430092728E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FDStackView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkingdog.FDStackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDB09E041D1A64430092728E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FDStackView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkingdog.FDStackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDB09E051D1A64430092728E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FDStackViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkingdog.FDStackViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDB09E061D1A64430092728E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = FDStackViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkingdog.FDStackViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -495,6 +741,24 @@
 			buildConfigurations = (
 				48A129A81B9BE5E500EF9265 /* Debug */,
 				48A129A91B9BE5E500EF9265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB09E071D1A64430092728E /* Build configuration list for PBXNativeTarget "FDStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB09E031D1A64430092728E /* Debug */,
+				CDB09E041D1A64430092728E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB09E091D1A64430092728E /* Build configuration list for PBXNativeTarget "FDStackViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB09E051D1A64430092728E /* Debug */,
+				CDB09E061D1A64430092728E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
